@@ -13,7 +13,7 @@ beforeEach(() => {
   global.alert.mockClear()
 })
 
-test('calls the onSubmitUsername handler when the submit is fired', () => {
+test('calls the onSubmitUsername handler when the submit is fired',   () => {
   render(<App />)
   const input = screen.getByLabelText(/username/i)
   const submit = screen.getByText(/submit/i)
